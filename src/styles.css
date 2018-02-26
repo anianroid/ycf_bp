@@ -23,17 +23,11 @@ button {
 .home {
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(1, 1fr);
   padding: 10em 5em;
 }
 @media only screen and (max-width: 500px) {
-  .home {
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
   .approach-wrapper {
     padding: 2em 4em;
   }
@@ -81,7 +75,7 @@ button {
 }
 
 .approach-wrapper {
-  padding: 2em 18em;
+  padding: 2em 10%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
