@@ -12,7 +12,7 @@ class NavBar extends React.Component {
             <a>Our Work</a>
           </div>
           <div>
-            <img src="http://via.placeholder.com/140x140" />
+            <img alt="landingimage" src="http://via.placeholder.com/140x140" />
           </div>
           <div>
             <a>Get Involved</a>

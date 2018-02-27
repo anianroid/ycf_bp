@@ -4,6 +4,7 @@ import Home from "./Home";
 import NavBar from "./NavBar";
 import Approach from "./Approach";
 import Section from "./DefaultSection";
+import OurWork from "./OurWork.js";
 require("./styles.css");
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
     <Home />
     <Approach />
     <Section />
+    <OurWork />
   </div>
 );
 
