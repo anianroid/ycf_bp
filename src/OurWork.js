@@ -4,7 +4,7 @@ import PictureCard from "./PictureCard";
 class OurWork extends React.Component {
   render() {
     return (
-      <div>
+      <div className="section ourWorkSection">
         <div>
           <h1>Our Recent Work</h1>
         </div>
