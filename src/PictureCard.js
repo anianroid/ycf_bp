@@ -11,6 +11,9 @@ class PictureCard extends React.Component {
           <h2>{this.props.title}</h2>
           <p>{this.props.text}</p>
         </div>
+        <div>
+          <button>Read More</button>
+        </div>
       </div>
     );
   }

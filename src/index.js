@@ -4,7 +4,9 @@ import Home from "./Home";
 import NavBar from "./NavBar";
 import Approach from "./Approach";
 import Section from "./DefaultSection";
-import OurWork from "./OurWork.js";
+import OurWork from "./OurWork";
+import SecondarySection from "./SecondarySection";
+import Footer from './Footer';
 require("./styles.css");
 
 const App = () => (
@@ -17,6 +19,8 @@ const App = () => (
     <Approach />
     <Section />
     <OurWork />
+    <SecondarySection />
+    <Footer />
   </div>
 );
 
